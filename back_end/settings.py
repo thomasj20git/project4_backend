@@ -36,7 +36,7 @@ ALLOWED_HOSTS = ['localhost','mysterious-badlands-61174.herokuapp.com']
 INSTALLED_APPS = [
     'corsheaders',
     'rest_framework',
-    'contacts_api',
+    'workouts_api',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

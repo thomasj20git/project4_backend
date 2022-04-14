@@ -18,6 +18,6 @@ from django.urls import path
 from django.conf.urls import include
 
 urlpatterns = [
-    path('api/contacts/', include('contacts_api.urls')),
+    path('api/workouts/', include('workouts_api.urls')),
     path('admin/', admin.site.urls),
 ]
